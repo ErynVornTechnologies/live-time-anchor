@@ -1,0 +1,6 @@
+name: live-time-anchor
+version: 1.0.0
+author: Kamil Nagorski, ErynVorn Technologies
+description: Injects the live current date/time into every LLM turn so resumed sessions never lose time anchoring.
+provides_hooks:
+  - pre_llm_call
